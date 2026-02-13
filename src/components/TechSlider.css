@@ -1,0 +1,139 @@
+.tech-slider-section {
+  background-color: #1a1a1a;
+  padding: 80px 0;
+  border-top: 1px solid #3a3a3a;
+}
+
+.slider-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.tech-swiper {
+  padding: 2rem 0;
+}
+
+.tech-slide {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background-color: #2a2a2a;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tech-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.tech-image-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+.tech-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tech-image-wrapper:hover .tech-overlay {
+  opacity: 1;
+}
+
+.tech-name {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* SWIPER CUSTOM STYLES */
+.tech-swiper .swiper-button-next,
+.tech-swiper .swiper-button-prev {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.tech-swiper .swiper-button-next:hover,
+.tech-swiper .swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tech-swiper .swiper-button-next::after,
+.tech-swiper .swiper-button-prev::after {
+  font-size: 20px;
+}
+
+.tech-swiper .swiper-pagination-bullet {
+  background-color: #cccccc;
+  opacity: 0.5;
+}
+
+.tech-swiper .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .tech-slider-section {
+    padding: 60px 0;
+  }
+
+  .slider-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .tech-slide {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-slider-section {
+    padding: 40px 0;
+  }
+
+  .slider-title {
+    font-size: 1.5rem;
+  }
+
+  .tech-slide {
+    height: 200px;
+  }
+
+  .tech-swiper .swiper-button-next,
+  .tech-swiper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+}
