@@ -49,7 +49,7 @@ export default function About() {
               </button>
               </a>
 
-               <a href="/resume.pdf" download className="btn btn-secondary" aria-label="Download CV"> {/*aca agrgar cv .pdf /*} */}
+               <a href="/Cv_Santacatalina_Franco.pdf" download className="btn btn-secondary" aria-label="Download CV"> {/*aca agrgar cv .pdf /*} */}
                 <span>DESCARGAR CV</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"   

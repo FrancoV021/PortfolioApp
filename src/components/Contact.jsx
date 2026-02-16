@@ -53,7 +53,7 @@ export default function Contact() {
     {
       id: 2,
       title: 'TELÉFONO',
-      value: '+54 9 11 2345 6789',
+      value: '+54 9 11 5386-8541',
       icon: <Phone/>,
       link: 'tel:+5491153868541',
     },
