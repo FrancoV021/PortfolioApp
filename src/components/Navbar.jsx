@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h1>FRANCO</h1>
+          <h1>FranhiDev</h1>
         </div>
 
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>

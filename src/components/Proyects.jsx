@@ -4,51 +4,46 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Plataforma de compras completa con carrito y pago integrado',
-      technologies: ['React', 'Node.js', 'MySQL'],
-      link: 'https://github.com/user/ecommerce',
-      deployed: 'https://ecommerce-demo.vercel.app',
+      title: 'Gym Manager',
+      description: 'Aplicacion que implementa funciones CRUD, para registrar clientes de un gym.',
+      technologies: ['Java', 'TypeScipt', 'PostgreSQL', 'React', 'Docker'],
+      link: 'https://github.com/FrancoV021/CrudFullstack',
     },
     {
       id: 2,
-      title: 'Blog CMS',
-      description: 'Sistema de gestión de contenido para blogs con editor WYSIWYG',
-      technologies: ['React', 'Spring Boot', 'PostgreSQL'],
-      link: 'https://github.com/user/blog-cms',
-      deployed: 'https://blog-cms-demo.vercel.app',
+      title: 'Drag and Drop TaskList',
+      description: 'Lista de tareas implementando "Drag and Drop".',
+      technologies: ['React', 'JavaScript'],
+      link: 'https://github.com/FrancoV021/Proyecto-DragNdrop-'
     },
     {
       id: 3,
-      title: 'Dashboard Analytics',
-      description: 'Panel de análisis en tiempo real con gráficos interactivos',
-      technologies: ['React', 'Node.js', 'MongoDB'],
-      link: 'https://github.com/user/analytics-dashboard',
-      deployed: 'https://analytics-demo.vercel.app',
+      title: 'Hotel Management',
+      description: 'App para la gestion de un hotel, inplementa funciones CRUD para administrar Usuarios, Reservas y Habitaciones',
+      technologies: ['React', 'Springboot', 'Java', 'JWT', 'Vite', 'Tailwind', 'MySql'],
+      link: 'https://github.com/FrancoV021/Crud-Fullstack-Gestion-Hotel-DelRio',
+      deployed: 'https://crud-fullstack-gestion-hotel-del-ri.vercel.app/',
     },
     {
       id: 4,
-      title: 'Task Manager App',
-      description: 'Aplicación para gestionar tareas con sincronización en tiempo real',
-      technologies: ['React', 'Firebase', 'Tailwind'],
-      link: 'https://github.com/user/task-manager',
-      deployed: 'https://task-manager-demo.vercel.app',
+      title: 'Simple order management system',
+      description: 'Sistema de Gestión de Pedidos Aplicación simple, para gestión de pedidos de comida rápida.',
+      technologies: ['Docker', 'Vercel', 'JavaScript', 'Java'],
+      link: 'https://github.com/FrancoV021/Crud-FullStack-FastEat'
     },
     {
       id: 5,
-      title: 'Social Media Feed',
-      description: 'Red social con feed, comentarios y sistema de notificaciones',
-      technologies: ['React', 'Node.js', 'MySQL'],
-      link: 'https://github.com/user/social-feed',
-      deployed: 'https://social-feed-demo.vercel.app',
+      title: 'Shopping Cart',
+      description: 'Frontend de carrito de compras en React.js que implementa un api',
+      technologies: ['React.js', 'API'],
+      link: 'https://github.com/FrancoV021/Proyecto-Carrito-de-compras',
     },
     {
       id: 6,
-      title: 'Music Streaming App',
-      description: 'Aplicación de streaming de música con reproductor interactivo',
-      technologies: ['React', 'Spring Boot', 'PostgreSQL'],
-      link: 'https://github.com/user/music-app',
-      deployed: 'https://music-app-demo.vercel.app',
+      title: 'StockFLow de productos',
+      description: 'App web gestion de inventario de productos',
+      technologies: ['Java', 'Docker', 'React', 'PostgreSQL'],
+      link: 'https://github.com/FrancoV021/PROYECTO-CRUD---fullstack-'
     },
   ];
 
@@ -75,6 +70,10 @@ export default function Projects() {
               </div>
 
               <div className="project-links">
+
+                 {project.deployed && (
+                  
+                
                 <a
                   href={project.deployed}
                   target="_blank"
@@ -96,6 +95,7 @@ export default function Projects() {
                     <line x1="10" y1="14" x2="21" y2="3" />
                   </svg>
                 </a>
+                )}
 
                 <a
                   href={project.link}

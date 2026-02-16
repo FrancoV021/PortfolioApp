@@ -29,7 +29,7 @@ export default function FullStack() {
   };
 
   return (
-    <section className="fullstack">
+    <section className="fullstack section">
       <div className="container">
         <h2 className="section-title">FULL STACK DEVELOPER</h2>
         <p className="fullstack-intro">

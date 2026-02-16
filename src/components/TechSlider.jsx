@@ -7,15 +7,15 @@ import './TechSlider.css';
 
 export default function TechSlider() {
   const technologies = [
-    { id: 1, name: 'HTML', image: '/tech-html.jpg' },
-    { id: 2, name: 'CSS', image: '/tech-css.jpg' },
-    { id: 3, name: 'Tailwind', image: '/tech-tailwind.jpg' },
-    { id: 4, name: 'JavaScript', image: '/tech-javascript.jpg' },
-    { id: 5, name: 'MySQL', image: '/tech-mysql.jpg' },
-    { id: 6, name: 'React', image: '/tech-react.jpg' },
-    { id: 7, name: 'Java', image: '/tech-java.jpg' },
-    { id: 8, name: 'Node.js', image: '/tech-node.jpg' },
-    { id: 9, name: 'Spring Boot', image: '/tech-springboot.jpg' },
+    { id: 1, name: 'HTML', image: './slider/tech-html.jpg' },
+    { id: 2, name: 'CSS', image: './slider/tech-css.jpg' },
+    { id: 3, name: 'Tailwind', image: './slider/tech-tailwind.png' },
+    { id: 4, name: 'JavaScript', image: './slider/tech-javascript.jpg' },
+    { id: 5, name: 'MySQL', image: './slider/tech-mysql.jpg' },
+    { id: 6, name: 'React', image: './slider/tech-react.jpg' },
+    { id: 7, name: 'Java', image: './slider/tech-java.jpg' },
+    { id: 8, name: 'Node.js', image: './slider/tech-node.jpg' },
+    { id: 9, name: 'Spring Boot', image: './slider/tech-springboot.jpg' },
   ];
 
   return (
@@ -27,7 +27,7 @@ export default function TechSlider() {
           modules={[Autoplay, Navigation, Pagination]}
           spaceBetween={20}
           slidesPerView={1}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          autoplay={{ delay: 1000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           navigation
           breakpoints={{

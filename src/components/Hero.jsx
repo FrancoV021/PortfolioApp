@@ -13,6 +13,10 @@ export default function Hero() {
                 1000,
                 'Soy Desarrollador Web',
                 1000,
+                'Hi, I’m Franco',
+                1000,
+                'I’m a web developer',
+                1000,
               ]}
               wrapper="h1"
               cursor={true}
@@ -25,7 +29,7 @@ export default function Hero() {
               }}
             />
           </div>
-          <p className="hero-subtitle">Transformando ideas en código</p>
+          <p className="hero-subtitle">Desarrollador web FullStack</p>
         </div>
 
         <div className="hero-background">

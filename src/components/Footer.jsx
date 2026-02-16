@@ -6,17 +6,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/FrancoV021',
       icon: '→',
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'www.linkedin.com/in/franco-santacatalina-735347244',
       icon: '→',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/franvazquez_ok/',
       icon: '→',
     },
     {
@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Franco Dev</h3>
-            <p>Desarrollador Web Full Stack apasionado por crear experiencias digitales increíbles.</p>
+            <p>Desarrollador Web Full Stack Jr con muchas ganas de sumar y aprender del mundo IT.</p>
           </div>
 
           <div className="footer-section">
@@ -58,7 +58,7 @@ export default function Footer() {
         <div className="footer-divider"></div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Franco. Todos los derechos reservados.</p>
+          <p>&copy; {currentYear} Franhicode.</p>
           <p>Diseñado y desarrollado con ❤️ por Franco</p>
         </div>
       </div>

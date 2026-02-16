@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Contact.css';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -46,21 +47,21 @@ export default function Contact() {
       id: 1,
       title: 'EMAIL',
       value: 'franhi02@hotmail.com',
-      icon: '✉',
+      icon: <Mail/>,
       link: 'mailto:franhi02@hotmail.com',
     },
     {
       id: 2,
       title: 'TELÉFONO',
       value: '+54 9 11 2345 6789',
-      icon: '☎',
-      link: 'tel:+5491123456789',
+      icon: <Phone/>,
+      link: 'tel:+5491153868541',
     },
     {
       id: 3,
       title: 'UBICACIÓN',
       value: 'San Martín, Buenos Aires',
-      icon: '📍',
+      icon: <MapPin/>,
       link: '#map',
     },
   ];

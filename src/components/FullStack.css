@@ -3,6 +3,14 @@
   padding: 100px 0;
 }
 
+.section{
+
+    background-image: url('../assets/background/backgrounfFullstack.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
 .fullstack-intro {
   text-align: center;
   font-size: 1.1rem;
@@ -19,7 +27,8 @@
 }
 
 .skill-card {
-  background-color: #2a2a2a;
+  background: rgb(34, 34, 34, 0.6);
+  backdrop-filter: blur(10px);
   border: 1px solid #3a3a3a;
   border-radius: 12px;
   padding: 2rem;

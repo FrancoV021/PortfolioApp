@@ -26,7 +26,7 @@ export default function ScrollToTop() {
         <Link
           to="home"
           smooth={true}
-          duration={500}
+          duration={300}
           className="scroll-to-top-button"
           aria-label="Volver al inicio"
         >

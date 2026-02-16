@@ -1,3 +1,5 @@
+import { Radio } from 'lucide-react';
+import ProfilePh from '../assets/ProfilePh.jpg';
 import './About.css';
 
 export default function About() {
@@ -9,35 +11,48 @@ export default function About() {
         <div className="about-content">
           <div className="about-image">
             <div className="image-wrapper">
-              <img src="/placeholder-photo.jpg" alt="Franco" />
+              <img src={ProfilePh} alt="Franco" />
               <div className="image-glow"></div>
             </div>
           </div>
 
           <div className="about-text">
             <p className="about-description">
-              Soy un desarrollador web apasionado con experiencia en frontend y
-              backend. Me especializo en crear aplicaciones web modernas, rápidas
-              y escalables. Tengo un profundo conocimiento en React, Node.js,
-              Java con Spring Boot y gestión de bases de datos.
+              Soy Franco, un <i>desarrollador web Full Stack</i>, tambien complemento mi 
+              formación de manera autodidacta, manteniéndome en constante 
+              aprendizaje. Enfocado en la creación de 
+              aplicaciones web modernas, escalables y orientadas a la experiencia 
+              del usuario. Trabajo principalmente con React, JavaScript,
+              y Java con Spring Boot, integrando APIs REST, autenticación con JWT y 
+              manejo de bases de datos relacionales. 
             </p>
 
             <p className="about-description">
-              Me encanta resolver problemas complejos y transformar diseños en
-              experiencias interactivas. Soy proactivo, autodidacta y siempre
-              estoy aprendiendo nuevas tecnologías y mejorando mis habilidades.
+              Tengo experiencia construyendo proyectos aplicando buenas prácticas 
+              de desarrollo, control de versiones con Git y metodologías 
+              orientadas a código limpio y mantenible.
+              Con muchas ganas de seguir adquriendo
+              habilidades y comenzar mi <i>carrera en el mundo IT</i>. 
+              Me apasiona construir proyectos reales, <i>desafiando lo que viene</i>. 
+              Me considero alguien proactivo, curioso 
+              y comprometido, me gusta trabajar en equipo. Busco mi primera oportunidad 
+              como <b>Desarrollador Web Jr</b> donde pueda aportar valor al equipo y 
+              tener la posibilidad de ser <i>mejor profesional</i> y mejor compañero.
             </p>
-
             <div className="about-buttons">
+              <a href="https://www.linkedin.com/in/franco-santacatalina-735347244/" target='Linkedin-franco-santacatalina'>
               <button className="btn btn-primary" aria-label="Open to work">
-                <span>OPEN TO WORK</span>
+                <Radio/>
+                <span> OPEN TO WORK</span>
+                  
                 <div className="btn-animation"></div>
               </button>
+              </a>
 
-              <a href="/resume.pdf" download className="btn btn-secondary" aria-label="Download CV">
+               <a href="/resume.pdf" download className="btn btn-secondary" aria-label="Download CV"> {/*aca agrgar cv .pdf /*} */}
                 <span>DESCARGAR CV</span>
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"   
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"

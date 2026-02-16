@@ -117,9 +117,10 @@
 }
 
 .btn-primary {
-  background-color: #ffffff;
+  background-color: #26db0e;
   color: #000000;
   border: 2px solid #ffffff;
+  padding: 1.2rem 2rem;
 }
 
 .btn-primary:hover {
