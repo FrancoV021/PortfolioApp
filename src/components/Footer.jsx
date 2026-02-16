@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Franco Dev</h3>
+            <h3>FranhiCode</h3>
             <p>Desarrollador Web Full Stack Jr con muchas ganas de sumar y aprender del mundo IT.</p>
           </div>
 
