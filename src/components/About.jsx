@@ -44,12 +44,11 @@ export default function About() {
               <button className="btn btn-primary" aria-label="Open to work">
                 <Radio/>
                 <span> OPEN TO WORK</span>
-                  
                 <div className="btn-animation"></div>
               </button>
               </a>
 
-               <a href="/Cv_Santacatalina_Franco.pdf" download className="btn btn-secondary" aria-label="Download CV"> {/*aca agrgar cv .pdf /*} */}
+               <a href="/download/CvSantacatalinaFranco.pdf" download className="btn btn-secondary" aria-label="Download CV">
                 <span>DESCARGAR CV</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"   
