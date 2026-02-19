@@ -8,11 +8,11 @@ export default function FullStack() {
     },
     backend: {
       title: 'Backend',
-      technologies: ['Node.js', 'Express', 'Java', 'Spring Web', 'Spring Data JPA', 'Spring Security JWT', 'RESTful APIs'],
+      technologies: ['Node.js', 'Java', 'Spring Web', 'Spring Data JPA', 'Spring Security JWT', 'RESTful APIs'],
     },
     database: {
       title: 'Base de Datos',
-      technologies: ['MySQL', 'MySQL Workbench', 'PostgreSQL', 'PgAdmin', 'Modelado de datos', 'Queries SQL'],
+      technologies: ['MySQL', 'MySQL Workbench', 'PostgreSQL', 'PgAdmin', 'Data Model', 'Queries SQL'],
     },
     tools: {
       title: 'Herramientas y Metodologías',
@@ -20,11 +20,11 @@ export default function FullStack() {
     },
     devops: {
       title: 'DevOps & Deployment',
-      technologies: ['Vercel Deploy', 'Render Deploy', 'Docker', 'Comandos CMD', 'PowerShell', 'Git Workflow'],
+      technologies: ['Vercel Deploy', 'Render Deploy', 'Docker', 'CMD Commands', 'PowerShell', 'Git Workflow'],
     },
     architecture: {
       title: 'Arquitectura & Patrones',
-      technologies: ['Arquitectura en Capas', 'Clean Code', 'SOLID Principles', 'Patrones de Diseño', 'Scrum', 'Jira', 'Trello'],
+      technologies: ['Layered Architecture', 'Clean Code', 'SOLID Principles', 'Dessign Patterns', 'Scrum', 'Jira', 'Trello'],
     },
   };
 

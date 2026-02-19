@@ -31,13 +31,13 @@ export default function About() {
               Tengo experiencia construyendo proyectos aplicando buenas prácticas 
               de desarrollo, control de versiones con Git y metodologías 
               orientadas a código limpio y mantenible.
-              Con muchas ganas de seguir adquriendo
+              Con muchas ganas de seguir adquiriendo
               habilidades y comenzar mi <i>carrera en el mundo IT</i>. 
-              Me apasiona construir proyectos reales, <i>desafiando lo que viene</i>. 
-              Me considero alguien proactivo, curioso 
-              y comprometido, me gusta trabajar en equipo. Busco mi primera oportunidad 
-              como <b>Desarrollador Web Jr</b> donde pueda aportar valor al equipo y 
-              tener la posibilidad de ser <i>mejor profesional</i> y mejor compañero.
+              Me considero alguien proactivo, curioso y comprometido 
+              <i>desafiando lo que viene</i>. Me gusta trabajar en equipo
+               y busco mi primera oportunidad como <b>Desarrollador Web Jr</b> 
+              donde pueda aportar valor al equipo y tener la posibilidad 
+              de ser <i>mejor profesional</i>.
             </p>
             <div className="about-buttons">
               <a href="https://www.linkedin.com/in/franco-santacatalina-735347244/" target='Linkedin-franco-santacatalina'>

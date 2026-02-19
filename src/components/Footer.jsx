@@ -11,7 +11,7 @@ export default function Footer() {
     },
     {
       name: 'LinkedIn',
-      url: 'www.linkedin.com/in/franco-santacatalina-735347244',
+      url: 'https://linkedin.com/in/franco-santacatalina-735347244',
       icon: '→',
     },
     {
