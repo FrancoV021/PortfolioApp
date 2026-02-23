@@ -52,14 +52,14 @@ export default function Contact() {
     },
     {
       id: 2,
-      title: 'TELÉFONO',
+      title: 'PHONE',
       value: '+54 9 11 5386-8541',
       icon: <Phone/>,
       link: 'tel:+5491153868541',
     },
     {
       id: 3,
-      title: 'UBICACIÓN',
+      title: 'LOCATION',
       value: 'San Martín, Buenos Aires',
       icon: <MapPin/>,
       link: '#map',
@@ -69,7 +69,7 @@ export default function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <h2 className="section-title">CONTACTO</h2>
+        <h2 className="section-title">CONTACT</h2>
 
         <div className="contact-wrapper">
           <div className="contact-info">
@@ -97,11 +97,11 @@ export default function Contact() {
               <input
                 type="text"
                 name="name"
-                placeholder="Tu nombre"
+                placeholder="Your name"
                 value={formData.name}
                 onChange={handleChange}
                 required
-                aria-label="Nombre"
+                aria-label="Name"
               />
               <div className="form-underline"></div>
             </div>
@@ -110,7 +110,7 @@ export default function Contact() {
               <input
                 type="email"
                 name="email"
-                placeholder="Tu email"
+                placeholder="you email"
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -123,11 +123,11 @@ export default function Contact() {
               <input
                 type="text"
                 name="subject"
-                placeholder="Asunto"
+                placeholder="Affair"
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                aria-label="Asunto"
+                aria-label="Affair"
               />
               <div className="form-underline"></div>
             </div>
@@ -140,17 +140,17 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                aria-label="Mensaje"
+                aria-label="message"
               ></textarea>
               <div className="form-underline"></div>
             </div>
 
             <button type="submit" className="submit-btn">
-              <span>ENVIAR MENSAJE</span>
+              <span>SUBMIT MESSAGE</span>
               <div className="btn-animation"></div>
             </button>
 
-            {submitted && <div className="success-message">¡Mensaje enviado correctamente!</div>}
+            {submitted && <div className="success-message">Message sent successfully!</div>}
           </form>
         </div>
 

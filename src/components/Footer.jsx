@@ -32,11 +32,11 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>FranhiCode</h3>
-            <p>Desarrollador Web Full Stack Jr con muchas ganas de sumar y aprender del mundo IT.</p>
+            <p>Junior Full Stack Web Developer eager to contribute and learn about the IT world.</p>
           </div>
 
           <div className="footer-section">
-            <h4>Redes Sociales</h4>
+            <h4>Social Networks</h4>
             <div className="social-links">
               {socialLinks.map((link, idx) => (
                 <a
@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>&copy; {currentYear} Franhicode.</p>
-          <p>Diseñado y desarrollado con ❤️ por Franco</p>
+          <p>Designed and developed with ❤️ by Franco.</p>
         </div>
       </div>
     </footer>

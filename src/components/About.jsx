@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="about" id="about">
       <div className="container">
-        <h2 className="section-title">SOBRE MÍ</h2>
+        <h2 className="section-title">ABOUT ME</h2>
 
         <div className="about-content">
           <div className="about-image">
@@ -18,40 +18,37 @@ export default function About() {
 
           <div className="about-text">
             <p className="about-description">
-              Soy Franco, un <i>desarrollador web Full Stack</i>, tambien complemento mi 
-              formación de manera autodidacta, manteniéndome en constante 
-              aprendizaje. Enfocado en la creación de 
-              aplicaciones web modernas, escalables y orientadas a la experiencia 
-              del usuario. Trabajo principalmente con React, JavaScript,
-              y Java con Spring Boot, integrando APIs REST, autenticación con JWT y 
-              manejo de bases de datos relacionales. 
+              I am Franco, a <i>Full Stack Web Developer</i>, who also complements my
+              professional training through self-directed learning, staying in constant
+              development. I am focused on building modern, scalable web applications
+              with a strong emphasis on user experience. I primarily work with React,
+              JavaScript, and Java with Spring Boot, integrating REST APIs, JWT-based
+              authentication, and relational database management.
             </p>
 
             <p className="about-description">
-              Tengo experiencia construyendo proyectos aplicando buenas prácticas 
-              de desarrollo, control de versiones con Git y metodologías 
-              orientadas a código limpio y mantenible.
-              Con muchas ganas de seguir adquiriendo
-              habilidades y comenzar mi <i>carrera en el mundo IT</i>. 
-              Me considero alguien proactivo, curioso y comprometido, siempre
-              <i> desafiando lo que viene</i>. Me gusta trabajar en equipo
-               y busco mi primera oportunidad como <b>Desarrollador Web Jr</b> 
-              , donde pueda aportar valor al equipo y tener la posibilidad 
-              de ser <i>mejor profesional</i>.
+              I have experience building projects by applying best development practices,
+              version control with Git, and methodologies focused on clean and maintainable
+              code. I am highly motivated to continue developing my skills and to begin my
+              <i>career in the IT industry</i>. I consider myself proactive, curious, and
+              committed, always <i>challenging what´s comming</i>. I enjoy working in
+              team environments and I am seeking my first opportunity as a
+              <b>Junior Web Developer</b>, where I can contribute value to the team and
+              continue growing as a <i>better professional</i>.
             </p>
             <div className="about-buttons">
               <a href="https://www.linkedin.com/in/franco-santacatalina-735347244/" target='Linkedin-franco-santacatalina'>
-              <button className="btn btn-primary" aria-label="Open to work">
-                <Radio/>
-                <span> OPEN TO WORK</span>
-                <div className="btn-animation"></div>
-              </button>
+                <button className="btn btn-primary" aria-label="Open to work">
+                  <Radio />
+                  <span> OPEN TO WORK</span>
+                  <div className="btn-animation"></div>
+                </button>
               </a>
 
-               <a href="/download/CvSantacatalinaFranco.pdf" download className="btn btn-secondary" aria-label="Download CV">
-                <span>DESCARGAR CV</span>
+              <a href="/download/CvSantacatalinaFranco.pdf" download className="btn btn-secondary" aria-label="Download CV">
+                <span>DOWNLOAD CV</span>
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"   
+                  xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"

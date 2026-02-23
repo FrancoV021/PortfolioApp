@@ -29,7 +29,7 @@ export default function Hero() {
               }}
             />
           </div>
-          <p className="hero-subtitle">Desarrollador web FullStack</p>
+          <p className="hero-subtitle">FullStack Web Developer.</p>
         </div>
 
         <div className="hero-background">

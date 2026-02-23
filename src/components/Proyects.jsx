@@ -5,21 +5,21 @@ export default function Projects() {
     {
       id: 1,
       title: 'Gym Manager',
-      description: 'Aplicacion que implementa funciones CRUD, para registrar clientes de un gym.',
+      description: 'Application that implements CRUD functions to register gym clients.',
       technologies: ['Java', 'TypeScipt', 'PostgreSQL', 'React', 'Docker'],
       link: 'https://github.com/FrancoV021/CrudFullstack',
     },
     {
       id: 2,
       title: 'Drag and Drop TaskList',
-      description: 'Lista de tareas implementando "Drag and Drop".',
+      description: 'Task list implementing "Drag and Drop".',
       technologies: ['React', 'JavaScript'],
       link: 'https://github.com/FrancoV021/Proyecto-DragNdrop-'
     },
     {
       id: 3,
       title: 'Hotel Management',
-      description: 'App para la gestion de un hotel, inplementa funciones CRUD para administrar Usuarios, Reservas y Habitaciones',
+      description: 'Hotel management app, implements CRUD functions to manage Users, Reservations and Rooms.',
       technologies: ['React', 'Springboot', 'Java', 'JWT', 'Vite', 'Tailwind', 'MySql'],
       link: 'https://github.com/FrancoV021/Crud-Fullstack-Gestion-Hotel-DelRio',
       deployed: 'https://crud-fullstack-gestion-hotel-del-ri.vercel.app/',
@@ -27,21 +27,21 @@ export default function Projects() {
     {
       id: 4,
       title: 'Simple order management system',
-      description: 'Sistema de Gestión de Pedidos Aplicación simple, para gestión de pedidos de comida rápida.',
+      description: 'Order Management System Simple application for managing fast food orders.',
       technologies: ['Docker', 'Vercel', 'JavaScript', 'Java'],
       link: 'https://github.com/FrancoV021/Crud-FullStack-FastEat'
     },
     {
       id: 5,
       title: 'Shopping Cart',
-      description: 'Frontend de carrito de compras en React.js que implementa un api',
+      description: 'Shopping cart frontend in React.js that implements an API.',
       technologies: ['React.js', 'API'],
       link: 'https://github.com/FrancoV021/Proyecto-Carrito-de-compras',
     },
     {
       id: 6,
-      title: 'StockFLow de productos',
-      description: 'App web gestion de inventario de productos',
+      title: 'Product Stock Flow',
+      description: 'Web app for product inventory management.',
       technologies: ['Java', 'Docker', 'React', 'PostgreSQL'],
       link: 'https://github.com/FrancoV021/PROYECTO-CRUD---fullstack-'
     },
@@ -50,7 +50,7 @@ export default function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="container">
-        <h2 className="section-title">PROYECTOS</h2>
+        <h2 className="section-title">PROJECTS</h2>
 
         <div className="projects-grid">
           {projects.map((project) => (
@@ -79,7 +79,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="project-link deployed"
-                  aria-label="Ver proyecto desplegado"
+                  aria-label="View deployed project"
                 >
                   DEMO
                   <svg
@@ -102,9 +102,9 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="project-link repo"
-                  aria-label="Ver repositorio en GitHub"
+                  aria-label="View repo in GitHub"
                 >
-                  CÓDIGO
+                  CODE
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"

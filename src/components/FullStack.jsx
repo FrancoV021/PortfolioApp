@@ -11,11 +11,11 @@ export default function FullStack() {
       technologies: ['Node.js', 'Java', 'Spring Web', 'Spring Data JPA', 'Spring Security JWT', 'RESTful APIs'],
     },
     database: {
-      title: 'Base de Datos',
+      title: 'Databases',
       technologies: ['MySQL', 'MySQL Workbench', 'PostgreSQL', 'PgAdmin', 'Data Model', 'Queries SQL'],
     },
     tools: {
-      title: 'Herramientas y Metodologías',
+      title: 'Tools and Methodologies',
       technologies: ['Git', 'GitHub', 'Visual Studio Code', 'IntelliJ IDEA', 'Postman', 'Docker', 'Vite', 'Maven'],
     },
     devops: {
@@ -23,7 +23,7 @@ export default function FullStack() {
       technologies: ['Vercel Deploy', 'Render Deploy', 'Docker', 'CMD Commands', 'PowerShell', 'Git Workflow'],
     },
     architecture: {
-      title: 'Arquitectura & Patrones',
+      title: 'Architecture & Patterns',
       technologies: ['Layered Architecture', 'Clean Code', 'SOLID Principles', 'Dessign Patterns', 'Scrum', 'Jira', 'Trello'],
     },
   };
@@ -33,8 +33,8 @@ export default function FullStack() {
       <div className="container">
         <h2 className="section-title">FULL STACK DEVELOPER</h2>
         <p className="fullstack-intro">
-          Domino el stack completo de desarrollo web, desde el frontend interactivo hasta el backend robusto, con
-          experiencia en bases de datos y deployment en producción.
+          I have mastered the full web development stack, from interactive frontend to robust backend, 
+          with experience in databases and production deployment.
         </p>
 
         <div className="skills-grid">

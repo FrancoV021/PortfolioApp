@@ -21,7 +21,7 @@ export default function TechSlider() {
   return (
     <section className="tech-slider-section">
       <div className="container">
-        <h3 className="slider-title">TECNOLOGÍAS APRENDIDAS</h3>
+        <h3 className="slider-title">TECHNOLOGIES LEARNED</h3>
 
         <Swiper
           modules={[Autoplay, Navigation, Pagination]}
