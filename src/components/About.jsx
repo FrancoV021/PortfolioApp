@@ -36,7 +36,7 @@ export default function About() {
               Me considero alguien proactivo, curioso y comprometido, siempre
               <i> desafiando lo que viene</i>. Me gusta trabajar en equipo
                y busco mi primera oportunidad como <b>Desarrollador Web Jr</b> 
-              donde pueda aportar valor al equipo y tener la posibilidad 
+              , donde pueda aportar valor al equipo y tener la posibilidad 
               de ser <i>mejor profesional</i>.
             </p>
             <div className="about-buttons">
