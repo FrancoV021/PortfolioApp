@@ -33,8 +33,8 @@ export default function About() {
               orientadas a código limpio y mantenible.
               Con muchas ganas de seguir adquiriendo
               habilidades y comenzar mi <i>carrera en el mundo IT</i>. 
-              Me considero alguien proactivo, curioso y comprometido 
-              <i>desafiando lo que viene</i>. Me gusta trabajar en equipo
+              Me considero alguien proactivo, curioso y comprometido, siempre
+              <i> desafiando lo que viene</i>. Me gusta trabajar en equipo
                y busco mi primera oportunidad como <b>Desarrollador Web Jr</b> 
               donde pueda aportar valor al equipo y tener la posibilidad 
               de ser <i>mejor profesional</i>.
