@@ -110,7 +110,7 @@ export default function Contact() {
               <input
                 type="email"
                 name="email"
-                placeholder="you email"
+                placeholder="your email"
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -135,7 +135,7 @@ export default function Contact() {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="Tu mensaje"
+                placeholder="Your message"
                 rows="6"
                 value={formData.message}
                 onChange={handleChange}
