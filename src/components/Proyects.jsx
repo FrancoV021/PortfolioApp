@@ -20,7 +20,7 @@ export default function Projects() {
       id: 3,
       title: 'Hotel Management',
       description: 'Full-stack web application designed to manage hotel operations, including users, reservations, and rooms through a complete CRUD system. The project features a secure authentication and authorization flow using JWT, role-based access control, and protected routes. Built with React, Vite, and Tailwind on the frontend, and Java with Spring Boot on the backend, it integrates RESTful APIs with a MySQL relational database. This project strengthened my skills in full-stack architecture, API design, authentication mechanisms, database modeling, and deployment-ready frontend and backend integration.',
-      technologies: ['React', 'Springboot', 'Java', 'JWT', 'Vite', 'Tailwind', 'MySql'],
+      technologies: ['React', 'Java', 'JWT', 'Vite', 'Tailwind', 'MySql'],
       link: 'https://github.com/FrancoV021/Crud-Fullstack-Gestion-Hotel-DelRio',
       deployed: 'https://crud-fullstack-gestion-hotel-del-ri.vercel.app/',
     },
