@@ -29,6 +29,8 @@
   text-decoration: none;
   color: inherit;
   animation: slideInLeft 0.8s ease-out;
+  background: #000000;
+  background: linear-gradient(146deg, rgba(0, 0, 0, 1) 31%, rgba(196, 196, 196, 1) 99%);
 }
 
 .info-card:nth-child(1) {
