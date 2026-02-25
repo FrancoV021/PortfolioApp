@@ -35,7 +35,7 @@ export default function Projects() {
       id: 5,
       title: 'Shopping Cart',
       description: 'Application built with React.js, designed to be consumed by a REST API. The project focuses on client-side state management, dynamic UI updates, and user interaction flows such as adding, removing, and updating products in the cart. Although this project implements only the client layer, it was designed with a clear separation of concerns and scalable architecture, simulating real-world frontend integration with backend services. This project strengthened my skills in React fundamentals, component-based architecture, state handling, and building frontend applications prepared for API-driven environments.',
-      technologies: ['React.js', 'JavaScript', 'CSS ],
+      technologies: ['React.js', 'JavaScript', 'CSS' ],
       link: 'https://github.com/FrancoV021/Proyecto-Carrito-de-compras',
     },
     {
