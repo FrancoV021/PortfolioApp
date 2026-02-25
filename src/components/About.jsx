@@ -18,23 +18,29 @@ export default function About() {
 
           <div className="about-text">
             <p className="about-description">
-              I am Franco, a <i>Full Stack Web Developer</i>, who also complements my
-              professional training through self-directed learning, staying in constant
-              development. I am focused on building modern, scalable web applications
-              with a strong emphasis on user experience. I primarily work with React,
-              JavaScript, and Java with Spring Boot, integrating REST APIs, JWT-based
-              authentication, and relational database management.
+              I am Franco, a <i>Full Stack Web Developer,</i> i complements my formal 
+              education with continuous self-directed learning. I am passionate about 
+              building modern, scalable web applications with a strong focus on user 
+              experience and clean, maintainable code. I enjoy working on real-world 
+              projects that challenge me and allow me to apply and strengthen my 
+              technical skills.
             </p>
 
             <p className="about-description">
-              I have experience building projects by applying best development practices,
-              version control with Git, and methodologies focused on clean and maintainable
-              code. I am highly motivated to continue developing my skills and to begin my
-              <i>career in the IT industry</i>. I consider myself proactive, curious, and
-              committed, always <i>challenging what´s comming</i>. I enjoy working in
-              team environments and I am seeking my first opportunity as a
-              <b>Junior Web Developer</b>, where I can contribute value to the team and
-              continue growing as a <i>better professional</i>.
+             Throughout my learning journey, I have gained experience in frontend 
+             development using React and JavaScript, creating responsive and dynamic user 
+             interfaces. On the backend, I work with Java and Spring Boot to build RESTful 
+             APIs, implement JWT-based authentication and authorization, and manage 
+             relational databases. I also have experience with version control using Git 
+             and deploying applications to production environments.
+            </p>
+
+            <p className="about-description">
+             I am currently seeking <i>my first professional experience</i> in the IT industry as
+             a <i>Junior Web Developer,</i> where I can contribute value to a team, continue 
+             learning from experienced professionals, and grow both technically and 
+             professionally. I consider myself proactive, curious, and committed, and I enjoy 
+             collaborating in team environments while constantly pushing myself to improve.
             </p>
             <div className="about-buttons">
               <a href="https://www.linkedin.com/in/franco-santacatalina-735347244/" target='Linkedin-franco-santacatalina'>
