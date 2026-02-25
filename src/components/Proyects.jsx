@@ -73,7 +73,6 @@ export default function Projects() {
 
                  {project.deployed && (
                   
-                
                 <a
                   href={project.deployed}
                   target="_blank"
