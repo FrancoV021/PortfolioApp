@@ -5,21 +5,21 @@ export default function Projects() {
     {
       id: 1,
       title: 'Gym Manager',
-      description: 'Application that implements CRUD functions to register gym clients.',
+      description: 'Full-stack web application designed to manage gym clients through a complete CRUD system, providing a centralized and efficient solution to organize client data. Client information is stored in a relational database. The application is fully containerized with Docker, allowing easy setup and deployment across different environments. It follows a clear separation of concerns between front-end and back-end, ensuring scalability and maintainability. This project strengthened my full-stack development skills, including API integration, database management, clean code practices, version control with Git, and working with real-world data flows.',
       technologies: ['Java', 'TypeScipt', 'PostgreSQL', 'React', 'Docker'],
       link: 'https://github.com/FrancoV021/CrudFullstack',
     },
     {
       id: 2,
       title: 'Drag and Drop TaskList',
-      description: 'Task list implementing "Drag and Drop".',
-      technologies: ['React', 'JavaScript'],
+      description: 'Front-end application that allows users to manage tasks through an intuitive drag-and-drop interface, improving task organization and overall user experience. Tasks can be easily reordered by priority or workflow status using interactive UI elements, providing real-time visual feedback. This project focuses on state management, event handling, and component-based architecture in React, ensuring a smooth and maintainable UI. The project helped strengthen my skills in building dynamic user interfaces, implementing JavaScript-driven interactions, and creating clean, responsive layouts with CSS.',
+      technologies: ['React', 'JavaScript','CSS'],
       link: 'https://github.com/FrancoV021/Proyecto-DragNdrop-'
     },
     {
       id: 3,
       title: 'Hotel Management',
-      description: 'Hotel management app, implements CRUD functions to manage Users, Reservations and Rooms.',
+      description: 'Full-stack web application designed to manage hotel operations, including users, reservations, and rooms through a complete CRUD system. The project features a secure authentication and authorization flow using JWT, role-based access control, and protected routes. Built with React, Vite, and Tailwind on the frontend, and Java with Spring Boot on the backend, it integrates RESTful APIs with a MySQL relational database. This project strengthened my skills in full-stack architecture, API design, authentication mechanisms, database modeling, and deployment-ready frontend and backend integration.',
       technologies: ['React', 'Springboot', 'Java', 'JWT', 'Vite', 'Tailwind', 'MySql'],
       link: 'https://github.com/FrancoV021/Crud-Fullstack-Gestion-Hotel-DelRio',
       deployed: 'https://crud-fullstack-gestion-hotel-del-ri.vercel.app/',
@@ -27,21 +27,21 @@ export default function Projects() {
     {
       id: 4,
       title: 'Simple order management system',
-      description: 'Order Management System Simple application for managing fast food orders.',
+      description: 'Simple application designed to manage fast food orders, providing an efficient workflow for creating, tracking, and processing orders. The backend is developed in Java and fully containerized with Docker, ensuring consistency across development and production environments. The application is deployed using Render for the backend and database, and Vercel for the frontend, enabling a complete cloud-based deployment. This project strengthened my understanding of full-stack architecture, containerization, deployment workflows, and environment configuration in real-world applications.',
       technologies: ['Docker', 'Vercel', 'JavaScript', 'Java'],
       link: 'https://github.com/FrancoV021/Crud-FullStack-FastEat'
     },
     {
       id: 5,
       title: 'Shopping Cart',
-      description: 'Shopping cart frontend in React.js that implements an API.',
-      technologies: ['React.js', 'API'],
+      description: 'Application built with React.js, designed to be consumed by a REST API. The project focuses on client-side state management, dynamic UI updates, and user interaction flows such as adding, removing, and updating products in the cart. Although this project implements only the client layer, it was designed with a clear separation of concerns and scalable architecture, simulating real-world frontend integration with backend services. This project strengthened my skills in React fundamentals, component-based architecture, state handling, and building frontend applications prepared for API-driven environments.',
+      technologies: ['React.js', 'JavaScript', 'CSS ],
       link: 'https://github.com/FrancoV021/Proyecto-Carrito-de-compras',
     },
     {
       id: 6,
       title: 'Product Stock Flow',
-      description: 'Web app for product inventory management.',
+      description: 'Full-stack web application developed to manage product inventory and stock flow. The application allows tracking, updating, and organizing products in a relational database, providing an efficient solution for inventory control. Built with React on the frontend and Java on the backend, it follows a clear separation between client and server, exposing RESTful APIs for data interaction. The project is fully containerized with Docker, ensuring consistent environments and simplified deployment. This project strengthened my skills in full-stack development, database modeling with PostgreSQL, API design, and scalable application architecture.',
       technologies: ['Java', 'Docker', 'React', 'PostgreSQL'],
       link: 'https://github.com/FrancoV021/PROYECTO-CRUD---fullstack-'
     },
