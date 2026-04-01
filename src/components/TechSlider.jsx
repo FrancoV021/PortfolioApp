@@ -16,6 +16,8 @@ export default function TechSlider() {
     { id: 7, name: 'Java', image: './slider/tech-java.jpg' },
     { id: 8, name: 'Node.js', image: './slider/tech-node.jpg' },
     { id: 9, name: 'Spring Boot', image: './slider/tech-springboot.jpg' },
+    { id: 10, name: 'opencode', image: './slider/tech-opencode.jpg' },
+    { id: 11, name: 'ollama', image: './slider/tech-ollama.jpg' },
   ];
 
   return (

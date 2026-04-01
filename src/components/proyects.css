@@ -69,8 +69,17 @@
   color: #aaaaaa;
   font-size: 0.95rem;
   line-height: 1.6;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.project-card:hover .project-description {
   margin-bottom: 1.5rem;
-  min-height: 50px;
+  max-height: 240px;
+  opacity: 1;
 }
 
 .project-technologies {

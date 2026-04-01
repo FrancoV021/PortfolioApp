@@ -38,6 +38,10 @@
   overflow: hidden;
 }
 
+.ai-skill {
+  margin-top: 1.5rem;
+}
+
 .skill-card::before {
   content: '';
   position: absolute;

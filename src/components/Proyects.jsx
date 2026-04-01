@@ -4,17 +4,17 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: 'Dental Management System',
+      description: 'Full Stack System for comprehensive dental clinic management, enabling efficient administration of appointments, patient records, and professional staff. Developed with a robust architecture, the project focuses on scalability and providing a seamless user experience for the healthcare sector.This system was built through an AI-Augmented Development workflow, using OpenCode to coordinate specialized multi-agents. I implemented MCP protocols, Skills and local models via Ollama, optimizing clean code generation and the resolution of complex technical challenges throughout the process.',
+      technologies: ['Java', 'React', 'PostgreSQL', 'opencode'],
+      link: 'https://github.com/FrancoV021/dental-app-ai-agents',
+    },
+    {
+      id: 2,
       title: 'Gym Manager',
       description: 'Full-stack web application designed to manage gym clients through a complete CRUD system, providing a centralized and efficient solution to organize client data. Client information is stored in a relational database. The application is fully containerized with Docker, allowing easy setup and deployment across different environments. It follows a clear separation of concerns between front-end and back-end, ensuring scalability and maintainability. This project strengthened my full-stack development skills, including API integration, database management, clean code practices, version control with Git, and working with real-world data flows.',
       technologies: ['Java', 'TypeScipt', 'PostgreSQL', 'React', 'Docker'],
       link: 'https://github.com/FrancoV021/CrudFullstack',
-    },
-    {
-      id: 2,
-      title: 'Drag and Drop TaskList',
-      description: 'Front-end application that allows users to manage tasks through an intuitive drag-and-drop interface, improving task organization and overall user experience. Tasks can be easily reordered by priority or workflow status using interactive UI elements, providing real-time visual feedback. This project focuses on state management, event handling, and component-based architecture in React, ensuring a smooth and maintainable UI. The project helped strengthen my skills in building dynamic user interfaces, implementing JavaScript-driven interactions, and creating clean, responsive layouts with CSS.',
-      technologies: ['React', 'JavaScript','CSS'],
-      link: 'https://github.com/FrancoV021/Proyecto-DragNdrop-'
     },
     {
       id: 3,

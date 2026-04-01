@@ -51,6 +51,15 @@ export default function FullStack() {
             </div>
           ))}
         </div>
+
+        <div className="skill-card ai-skill">
+          <h3 className="skill-title">AI Integration</h3>
+          <div className="skill-tags">
+            <span className="skill-tag">OpenCode</span>
+            <span className="skill-tag">Ollama</span>
+            <span className="skill-tag">Cursor</span>
+          </div>
+        </div>
       </div>
     </section>
   );
