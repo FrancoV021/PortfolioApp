@@ -7,17 +7,20 @@ import './TechSlider.css';
 
 export default function TechSlider() {
   const technologies = [
-    { id: 1, name: 'HTML', image: './slider/tech-html.jpg' },
-    { id: 2, name: 'CSS', image: './slider/tech-css.jpg' },
-    { id: 3, name: 'Tailwind', image: './slider/tech-tailwind.png' },
-    { id: 4, name: 'JavaScript', image: './slider/tech-javascript.jpg' },
-    { id: 5, name: 'MySQL', image: './slider/tech-mysql.jpg' },
+    { id: 1, name: 'Claude', image: './slider/tech-claude.jpg' },
+    { id: 2, name: 'opencode', image: './slider/tech-opencode.jpg' },
+    { id: 3, name: 'CrewAi', image: './slider/tech-crewai.jpg' },
+    { id: 4, name: 'LMStudio', image: './slider/tech-lmstudio.jpg' },
+    { id: 5, name: 'ollama', image: './slider/tech-ollama.jpg' },
     { id: 6, name: 'React', image: './slider/tech-react.jpg' },
     { id: 7, name: 'Java', image: './slider/tech-java.jpg' },
     { id: 8, name: 'Node.js', image: './slider/tech-node.jpg' },
     { id: 9, name: 'Spring Boot', image: './slider/tech-springboot.jpg' },
-    { id: 10, name: 'opencode', image: './slider/tech-opencode.jpg' },
-    { id: 11, name: 'ollama', image: './slider/tech-ollama.jpg' },
+    { id: 10, name: 'HTML', image: './slider/tech-html.jpg' },
+    { id: 11, name: 'CSS', image: './slider/tech-css.jpg' },
+    { id: 12, name: 'Tailwind', image: './slider/tech-tailwind.png' },
+    { id: 13, name: 'JavaScript', image: './slider/tech-javascript.jpg' },
+    { id: 14, name: 'MySQL', image: './slider/tech-mysql.jpg' },
   ];
 
   return (

@@ -4,38 +4,38 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Dental Management System',
-      description: 'Full Stack System for comprehensive dental clinic management, enabling efficient administration of appointments, patient records, and professional staff. Developed with a robust architecture, the project focuses on scalability and providing a seamless user experience for the healthcare sector.This system was built through an AI-Augmented Development workflow, using OpenCode to coordinate specialized multi-agents. I implemented MCP protocols, Skills and local models via Ollama, optimizing clean code generation and the resolution of complex technical challenges throughout the process.',
-      technologies: ['Java', 'React', 'PostgreSQL', 'opencode'],
-      link: 'https://github.com/FrancoV021/dental-app-ai-agents',
+      title: 'OmniStock SaaS: Enterprise Inventory & Sales Orchestration',
+      description: 'OmniStock is a robust, multi-tenant SaaS solution engineered to bridge the gap between physical retail and e-commerce. Designed with a focus on high availability and secure data management, it serves as a centralized hub for inventory control and sales processing. By leveraging a Role-Based Access Control (RBAC) system, the platform empowers administrators with comprehensive oversight of complex inventories and actionable insights, while providing customers with a streamlined, intuitive purchasing experience through a modern, responsive interface.',
+      technologies: ['Opencode', 'Ollama', 'React', 'Java', 'PostgreSQL', 'Docker', 'Tailwind'],
+      link: 'https://github.com/FrancoV021/Crud-FullStack-FastEat'
     },
     {
       id: 2,
-      title: 'Gym Manager',
-      description: 'Full-stack web application designed to manage gym clients through a complete CRUD system, providing a centralized and efficient solution to organize client data. Client information is stored in a relational database. The application is fully containerized with Docker, allowing easy setup and deployment across different environments. It follows a clear separation of concerns between front-end and back-end, ensuring scalability and maintainability. This project strengthened my full-stack development skills, including API integration, database management, clean code practices, version control with Git, and working with real-world data flows.',
-      technologies: ['Java', 'TypeScipt', 'PostgreSQL', 'React', 'Docker'],
-      link: 'https://github.com/FrancoV021/CrudFullstack',
-    },
-    {
-      id: 3,
       title: 'Hotel Management',
       description: 'Full-stack web application designed to manage hotel operations, including users, reservations, and rooms through a complete CRUD system. The project features a secure authentication and authorization flow using JWT, role-based access control, and protected routes. Built with React, Vite, and Tailwind on the frontend, and Java with Spring Boot on the backend, it integrates RESTful APIs with a MySQL relational database. This project strengthened my skills in full-stack architecture, API design, authentication mechanisms, database modeling, and deployment-ready frontend and backend integration.',
       technologies: ['React', 'Java', 'JWT', 'Vite', 'Tailwind', 'MySql'],
       link: 'https://github.com/FrancoV021/Crud-Fullstack-Gestion-Hotel-DelRio',
       deployed: 'https://crud-fullstack-gestion-hotel-del-ri.vercel.app/',
     },
+     {
+      id: 3,
+      title: 'Gym Manager',
+      description: 'Full-stack web application designed to manage gym clients through a complete CRUD system, providing a centralized and efficient solution to organize client data. Client information is stored in a relational database. The application is fully containerized with Docker, allowing easy setup and deployment across different environments. It follows a clear separation of concerns between front-end and back-end, ensuring scalability and maintainability. This project strengthened my full-stack development skills, including API integration, database management, clean code practices, version control with Git, and working with real-world data flows.',
+      technologies: ['Java', 'TypeScipt', 'PostgreSQL', 'React', 'Docker'],
+      link: 'https://github.com/FrancoV021/CrudFullstack',
+    },
     {
       id: 4,
-      title: 'Simple order management system',
-      description: 'Simple application designed to manage fast food orders, providing an efficient workflow for creating, tracking, and processing orders. The backend is developed in Java and fully containerized with Docker, ensuring consistency across development and production environments. The application is deployed using Render for the backend and database, and Vercel for the frontend, enabling a complete cloud-based deployment. This project strengthened my understanding of full-stack architecture, containerization, deployment workflows, and environment configuration in real-world applications.',
-      technologies: ['Docker', 'Vercel', 'JavaScript', 'Java'],
-      link: 'https://github.com/FrancoV021/Crud-FullStack-FastEat'
+      title: 'Dental Management System',
+      description: 'Full Stack System for comprehensive dental clinic management, enabling efficient administration of appointments, patient records, and professional staff. Developed with a robust architecture, the project focuses on scalability and providing a seamless user experience for the healthcare sector.This system was built through an AI-Augmented Development workflow, using OpenCode to coordinate specialized multi-agents. I implemented MCP protocols, Skills and local models via Ollama, optimizing clean code generation and the resolution of complex technical challenges throughout the process.',
+      technologies: ['Java', 'React', 'PostgreSQL', 'opencode'],
+      link: 'https://github.com/FrancoV021/dental-app-ai-agents',
     },
     {
       id: 5,
       title: 'Shopping Cart',
       description: 'Application built with React.js, designed to be consumed by a REST API. The project focuses on client-side state management, dynamic UI updates, and user interaction flows such as adding, removing, and updating products in the cart. Although this project implements only the client layer, it was designed with a clear separation of concerns and scalable architecture, simulating real-world frontend integration with backend services. This project strengthened my skills in React fundamentals, component-based architecture, state handling, and building frontend applications prepared for API-driven environments.',
-      technologies: ['React.js', 'JavaScript', 'CSS' ],
+      technologies: ['React.js', 'JavaScript', 'CSS', 'API'],
       link: 'https://github.com/FrancoV021/Proyecto-Carrito-de-compras',
     },
     {

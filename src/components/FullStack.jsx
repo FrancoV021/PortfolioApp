@@ -56,8 +56,13 @@ export default function FullStack() {
           <h3 className="skill-title">AI Integration</h3>
           <div className="skill-tags">
             <span className="skill-tag">OpenCode</span>
+            <span className="skill-tag">Claude Code</span>
+            <span className="skill-tag">MCP</span>
+            <span className="skill-tag">Skills</span>
             <span className="skill-tag">Ollama</span>
+            <span className="skill-tag">LM Studio</span>
             <span className="skill-tag">Cursor</span>
+            <span className="skill-tag">CrewAI</span>
           </div>
         </div>
       </div>
