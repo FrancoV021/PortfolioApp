@@ -29,7 +29,7 @@ export default function Hero() {
               }}
             />
           </div>
-          <p className="hero-subtitle">Full Stack & AI Integrator.</p>
+          <p className="hero-subtitle">Full Stack Developer | Building AI-Powered.</p>
         </div>
 
         <div className="hero-background">

@@ -18,16 +18,17 @@ export default function About() {
 
           <div className="about-text">
             <p className="about-description">
-              I am Franco, a <b>Full Stack Web Developer</b> who balances formal university education with an <i>AI-driven development approach.</i> I specialize in building modern, scalable web applications with a strong focus on high-quality user experience and clean, maintainable code.
+              I am a <b>Full Stack Web Developer</b> who bridges the gap between the rigor of university education and a disruptive approach based on <i>AI integration</i>. I specialize in building scalable, modern applications, prioritizing code quality and high-level user experiences.
             </p>
 
             <p className="about-description">
-              My technical stack includes frontend development with <b>React and JavaScript</b> to create responsive interfaces, and backend architecture using <b>Java and Spring Boot.</b> I have hands-on experience building RESTful APIs, implementing <i>JWT-based security,</i> and managing relational databases, all while leveraging <b>AI-augmented workflows</b> to optimize efficiency and code reliability.
+              My development ecosystem focuses on solid architectures using <b>Java and Spring Boot</b> for the backend, complemented by dynamic and responsive interfaces in <b>React</b>. I have hands-on experience in RESTful API design, JWT security, and relational database management, optimizing every stage of the software development life cycle through <b>AI-augmented workflows</b> to ensure efficiency and reliability.
             </p>
 
             <p className="about-description">
-              I am currently seeking my <b>first professional challenge</b> in the IT industry as a <i>Junior Web Developer.</i> I am a proactive, curious, and committed professional, eager to contribute value to a development team and continue evolving alongside industry experts.
+              I am currently seeking my <b>first professional challenge</b> as a Junior Web Developer, committed to delivering immediate value to a technical team while continuing to evolve within high-demand technological environments.
             </p>
+
             <div className="about-buttons">
               <a href="https://www.linkedin.com/in/franco-santacatalina-735347244/" target='Linkedin-franco-santacatalina'>
                 <button className="btn btn-primary" aria-label="Open to work">
