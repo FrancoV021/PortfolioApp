@@ -98,8 +98,8 @@ export default function About() {
               </a>
 
               <a
-                href="/download/CvSantacatalinaFranco.pdf"
-                download
+                href="/download/FrancoSantacatalina.pdf"
+                download="FrancoSantacatalina.pdf"
                 className="btn btn-secondary"
                 aria-label="Download CV"
               >
