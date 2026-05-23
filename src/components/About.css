@@ -1,144 +1,261 @@
 .about {
-  background-color: #1a1a1a;
+  background-color: #0d0d0d;
   padding: 100px 0;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 800;
-  margin-bottom: 4rem;
-  color: #ffffff;
   position: relative;
-  letter-spacing: 2px;
+  overflow: hidden;
 }
 
-.section-title::after {
+.about::before {
   content: '';
-  display: block;
-  width: 80px;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 1rem auto 0;
+  position: absolute;
+  top: 50%;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255,255,255,0.025) 0%, transparent 60%);
+  border-radius: 50%;
+  pointer-events: none;
 }
 
+/* Section label */
+.section-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+
+.section-title-line {
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, #ffffff, transparent);
+  margin-bottom: 3.5rem;
+  margin-top: 0.75rem;
+}
+
+/* Layout */
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 5rem;
   align-items: center;
 }
 
+/* ============================================================
+   PROFILE IMAGE WITH ROTATING RING
+   ============================================================ */
 .about-image {
   display: flex;
   justify-content: center;
-  animation: slideInLeft 0.8s ease-out;
+  align-items: center;
+}
+
+.profile-ring-wrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Outer rotating ring */
+.profile-ring {
+  position: absolute;
+  inset: -16px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0%,
+    rgba(255,255,255,0.5) 20%,
+    transparent 40%,
+    rgba(255,255,255,0.2) 60%,
+    transparent 80%,
+    rgba(255,255,255,0.5) 100%
+  );
+  animation: rotate-border 4s linear infinite;
+  z-index: 1;
+  padding: 2px;
+  mask: radial-gradient(farthest-side, transparent calc(100% - 2px), white calc(100% - 2px));
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 2px), white calc(100% - 2px));
+}
+
+.profile-ring--inner {
+  inset: -8px;
+  opacity: 0.4;
+  animation-duration: 8s;
+  animation-direction: reverse;
+  background: conic-gradient(
+    from 90deg,
+    transparent 0%,
+    rgba(255,255,255,0.3) 30%,
+    transparent 60%
+  );
 }
 
 .image-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 400px;
-  aspect-ratio: 1;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.1),
+    0 20px 60px rgba(0,0,0,0.6),
+    inset 0 0 30px rgba(255,255,255,0.03);
 }
 
 .image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease;
+  object-position: center;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  filter: grayscale(15%) contrast(1.05);
 }
 
-.image-wrapper:hover img {
-  transform: scale(1.05);
+.profile-ring-wrapper:hover .image-wrapper img {
+  transform: scale(1.06);
 }
 
-.image-glow {
+/* Badge */
+.profile-badge {
   position: absolute;
-  top: -10px;
-  left: -10px;
+  bottom: 10px;
   right: -10px;
-  bottom: -10px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(13,13,13,0.95);
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: 20px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  z-index: -1;
-  animation: glow 2s ease-in-out infinite;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #cccccc;
+  z-index: 4;
+  backdrop-filter: blur(12px);
+  white-space: nowrap;
 }
 
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  background: #4ade80;
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ============================================================
+   TEXT CONTENT
+   ============================================================ */
 .about-text {
-  animation: slideInRight 0.8s ease-out;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .about-description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.8;
-  color: #cccccc;
-  margin-bottom: 1.5rem;
-  text-align: justify;
+  color: #888888;
 }
 
+.about-description strong {
+  color: #d0d0d0;
+  font-weight: 600;
+}
+
+/* Trait chips */
+.trait-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.trait-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #cccccc;
+  cursor: default;
+  transition: all 0.25s ease;
+}
+
+.trait-chip:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+}
+
+.trait-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* Buttons */
 .about-buttons {
   display: flex;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 1rem;
+  margin-top: 1rem;
   flex-wrap: wrap;
 }
 
 .btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.6rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 600;
-  border-radius: 50px;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   overflow: hidden;
-  letter-spacing: 1px;
-}
-
-.btn-animation {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  transition: left 0.4s ease;
-  z-index: -1;
-}
-
-.btn:hover .btn-animation {
-  left: 100%;
+  letter-spacing: 0.01em;
+  text-decoration: none;
 }
 
 .btn-primary {
-  background-color: #26db0e;
-  color: #000000;
-  border: 2px solid #ffffff;
-  padding: 1.2rem 2rem;
+  background-color: #ffffff;
+  color: #0d0d0d;
+  border: 1px solid #ffffff;
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255,255,255,0.15);
+}
+
+.btn-dot {
+  width: 7px;
+  height: 7px;
+  background: #4ade80;
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #cccccc;
+  border: 1px solid rgba(255,255,255,0.15);
 }
 
 .btn-secondary:hover {
-  background-color: #ffffff;
-  color: #000000;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.35);
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
 .btn svg {
@@ -149,17 +266,15 @@
   transform: translateY(2px);
 }
 
+/* RESPONSIVE */
 @media (max-width: 1024px) {
   .about-content {
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
-  .section-title {
-    font-size: 2.5rem;
-  }
-
-  .about-buttons {
-    gap: 1rem;
+  .about-image {
+    order: -1;
   }
 }
 
@@ -168,19 +283,18 @@
     padding: 60px 0;
   }
 
-  .about-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .profile-ring-wrapper {
+    width: 260px;
+    height: 260px;
   }
 
-  .section-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  .image-wrapper {
+    width: 240px;
+    height: 240px;
   }
 
   .about-description {
-    font-size: 1rem;
-    text-align: left;
+    font-size: 0.95rem;
   }
 
   .about-buttons {
@@ -189,5 +303,6 @@
 
   .btn {
     width: 100%;
+    justify-content: center;
   }
 }
